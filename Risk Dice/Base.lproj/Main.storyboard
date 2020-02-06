@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Risk_Dice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="BBx-Zh-lNo">
+                                <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Risk" translatesAutoresizingMaskIntoConstraints="NO" id="6z8-Ra-YvO">
+                                <rect key="frame" x="328" y="143" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="P8q-7n-UpU"/>
+                                    <constraint firstAttribute="height" constant="128" id="bYG-Sd-KZJ"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="khS-Yx-mGU">
+                                <rect key="frame" x="584" y="93.5" width="100" height="227"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dice1d" translatesAutoresizingMaskIntoConstraints="NO" id="A4I-az-jHL">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="GuA-Ih-s3r"/>
+                                            <constraint firstAttribute="width" constant="100" id="Xg6-Sg-iA5"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dice1d" translatesAutoresizingMaskIntoConstraints="NO" id="TkB-CJ-GoA">
+                                        <rect key="frame" x="0.0" y="127" width="100" height="100"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="Pbz-Hr-zok">
+                                <rect key="frame" x="212" y="30" width="100" height="354"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dice1" translatesAutoresizingMaskIntoConstraints="NO" id="I66-nF-7pi">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="Xj3-CI-zPD"/>
+                                            <constraint firstAttribute="height" constant="100" id="aUj-rS-ITp"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dice1" translatesAutoresizingMaskIntoConstraints="NO" id="ibu-gc-3hK">
+                                        <rect key="frame" x="0.0" y="127" width="100" height="100"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dice1" translatesAutoresizingMaskIntoConstraints="NO" id="Syv-KW-pSE">
+                                        <rect key="frame" x="0.0" y="254" width="100" height="100"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8J6-fq-WQ9">
+                                <rect key="frame" x="60" y="136.5" width="136" height="141"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="136" id="gYO-X2-lii"/>
+                                    <constraint firstAttribute="height" constant="141" id="wNe-5a-bSn"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="kindpng_1508268">
+                                    <color key="titleColor" red="0.60848115420000004" green="0.13015928830000001" blue="0.10912133760000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="attackButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qqh-JZ-5dx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8rF-81-mhu">
+                                <rect key="frame" x="700" y="117" width="146" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="H90-LA-K73"/>
+                                    <constraint firstAttribute="width" constant="146" id="jkH-EP-p87"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="hiclipart.com">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="defButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mcC-cQ-5yP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Pbz-Hr-zok" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3g6-3w-D7i"/>
+                            <constraint firstItem="8rF-81-mhu" firstAttribute="leading" secondItem="khS-Yx-mGU" secondAttribute="trailing" constant="16" id="5vY-k9-cfU"/>
+                            <constraint firstItem="khS-Yx-mGU" firstAttribute="leading" secondItem="6z8-Ra-YvO" secondAttribute="trailing" constant="16" id="Bgu-SR-BF4"/>
+                            <constraint firstItem="8rF-81-mhu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Nos-tL-Tqv"/>
+                            <constraint firstItem="6z8-Ra-YvO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QXA-eW-8ze"/>
+                            <constraint firstItem="6z8-Ra-YvO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="St1-El-dGz"/>
+                            <constraint firstItem="6z8-Ra-YvO" firstAttribute="leading" secondItem="Pbz-Hr-zok" secondAttribute="trailing" constant="16" id="fQa-RG-Hbc"/>
+                            <constraint firstItem="khS-Yx-mGU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ty1-3k-Kxr"/>
+                            <constraint firstItem="8J6-fq-WQ9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="uPg-hX-IzW"/>
+                            <constraint firstItem="Pbz-Hr-zok" firstAttribute="leading" secondItem="8J6-fq-WQ9" secondAttribute="trailing" constant="16" id="wYM-gk-Aib"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="direction">
+                                <integer key="value" value="0"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <connections>
+                        <outlet property="attackDice1" destination="I66-nF-7pi" id="KDy-Im-Kdh"/>
+                        <outlet property="attackDice2" destination="ibu-gc-3hK" id="ITJ-Jc-xiB"/>
+                        <outlet property="attackDice3" destination="Syv-KW-pSE" id="fTk-u6-ZZu"/>
+                        <outlet property="defDice1" destination="A4I-az-jHL" id="4KF-KA-jC5"/>
+                        <outlet property="defDice2" destination="TkB-CJ-GoA" id="Eg1-uV-uze"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.61607142857142" y="137.68115942028987"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Risk" width="430" height="320"/>
+        <image name="background" width="414" height="896"/>
+        <image name="dice1" width="200" height="200"/>
+        <image name="dice1d" width="200" height="200"/>
+        <image name="hiclipart.com" width="504" height="598"/>
+        <image name="kindpng_1508268" width="600" height="600"/>
+    </resources>
+</document>
