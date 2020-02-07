@@ -14,6 +14,7 @@
 		30B5B99223EC13D500AD6066 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B5B99023EC13D500AD6066 /* Main.storyboard */; };
 		30B5B99423EC13D600AD6066 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B5B99323EC13D600AD6066 /* Assets.xcassets */; };
 		30B5B99723EC13D600AD6066 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B5B99523EC13D600AD6066 /* LaunchScreen.storyboard */; };
+		30C4A48823ED68DA004EC238 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C4A48723ED68DA004EC238 /* UIButtonExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		30B5B99323EC13D600AD6066 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30B5B99623EC13D600AD6066 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30B5B99823EC13D600AD6066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30C4A48723ED68DA004EC238 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				30B5B99523EC13D600AD6066 /* LaunchScreen.storyboard */,
 				30B5B99823EC13D600AD6066 /* Info.plist */,
 				3014C27F23EC53F0001B3E18 /* AnimView.swift */,
+				30C4A48723ED68DA004EC238 /* UIButtonExtension.swift */,
 			);
 			path = "Risk Dice";
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30B5B98F23EC13D500AD6066 /* ViewController.swift in Sources */,
+				30C4A48823ED68DA004EC238 /* UIButtonExtension.swift in Sources */,
 				3014C28023EC53F0001B3E18 /* AnimView.swift in Sources */,
 				30B5B98B23EC13D500AD6066 /* AppDelegate.swift in Sources */,
 				30B5B98D23EC13D500AD6066 /* SceneDelegate.swift in Sources */,

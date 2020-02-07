@@ -45,28 +45,30 @@ class ViewController: UIViewController {
         
     }
 
-    @IBAction func attackButtonPress(_ sender: Any) {
+    @IBAction func attackButtonPressed(_ sender: UIButton) {
+        
         animAttackDice1()
         animAttackDice2()
         animAttackDice3()
+        sender.pulsate()
         attack()
     }
     
     
-    @IBAction func defButtonPress(_ sender: Any) {
+
+    @IBAction func defenseButtonPressed(_ sender: UIButton) {
+        sender.pulsate()
         animDefDice1()
         animDefDice2()
         deffense()
     }
     
-    
-    
-    
-    
+
+    // random entre 1 et 6
     func randomDice() -> Int {
         return Int.random(in: 1...6)
     }
-    
+    // animation des dés
     func animAttackDice1(){
         attackDice1.animationImages = (diceAttackArray.shuffled() as! [UIImage])
         attackDice1.animationDuration = 1
