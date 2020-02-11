@@ -12,7 +12,7 @@ extension UIButton {
     
     func pulsate(){
         let pulse = CASpringAnimation(keyPath: "transform.scale")
-        pulse.duration = 0.6 // durée de l'animation
+        pulse.duration = 0.7 // durée de l'animation
         pulse.fromValue = 0.95 // proportion de la taille initiale
         pulse.toValue = 1 // bouton oscille entre 0.95 et 1
         pulse.autoreverses = true // renverse l'anim = rétrécie puis s'aggrandie
@@ -25,7 +25,7 @@ extension UIButton {
     
     func flash(){
         let flash = CABasicAnimation(keyPath: "opacity")
-        flash.duration = 0.5
+        flash.duration = 0.7
         flash.fromValue = 1
         flash.toValue = 0.1
         flash.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
@@ -37,7 +37,7 @@ extension UIButton {
     
     func shake(){
         let shake = CABasicAnimation(keyPath: "position")
-        shake.duration = 0.1
+        shake.duration = 1
         shake.repeatCount = 2
         shake.autoreverses = true
         
