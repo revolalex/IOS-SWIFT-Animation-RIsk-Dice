@@ -17,7 +17,7 @@ Animtion
 
 This projet is personnal, i love to play Risk, and i wanted to learn animation in Swift. <br>
 Created a UIButton Extension with function for animation (shake, pulse, flash).<br>
-Created func for animate the dice (rotate, scale, translationX)
+Created func for animate the dice (rotate, scale, translationX). <br>
 So when you press the attack or defense button the buttons and the dices will start to be animate.<br>
 
 
